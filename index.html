@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Welcome to Search Page</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./multipleSearch.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-element">
+                <img src="./nttlogo.png" alt="logo" />
+                <h2>Shubham</h2>
+            </div>
+        </header>
+        
+        <div class="wrap">
+            <div class="search">
+                <div>
+                <input type="text" class="searchTerm" placeholder="Enter Name for Search..." name="SearchName" id="SearchId"  required/>
+                    <button type="submit" class="searchButton" onclick="multipleSearch()" >Search</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="main">
+            <div id="result-box">
+                <img src="./uRZfmji.gif" alt="" name="UserImg" id="UserImg" />
+                <h2 id="UserName">Loading...</h2>
+                <h3 id="UserInfo">Loading...</h3>
+                <a href="" id="UserVisit">Loading...</a>
+                <a href="" id="UserExp">Loading...</a>
+            </div>
+        </div>
+        <div id="button-div">
+            <button id="myButton1" onclick="prevPage()">back</button>
+            <button id="myButton" onclick="NextPage()">Next</button>
+            
+        </div>
+        <div id="footer-main">
+            <footer>
+                <div class="footer-page">
+                    <h3>CopyRight @2019</h3>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+</html>
